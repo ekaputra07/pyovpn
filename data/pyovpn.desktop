@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=PyOvpn
+Comment=Simple Python Open VPN Client
+Exec=pyovpn
+Icon=pyovpn
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+StartupNotify=true
