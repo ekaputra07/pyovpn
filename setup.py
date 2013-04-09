@@ -28,7 +28,7 @@ setup(
     author = 'Eka Putra',
     author_email = 'ekaputra@balitechy.com',
     packages = find_packages(),
-    install_requires = ['pexpect','pynotify'],
+    install_requires = ['pexpect'],
     data_files = [
                 ('/usr/share/pixmaps', ['data/pyovpn.svg']),
                 ('/usr/share/applications', ['data/pyovpn.desktop'])
