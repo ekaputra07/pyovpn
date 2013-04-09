@@ -20,6 +20,7 @@
 from PyQt4 import QtCore
 import pexpect
 import pynotify
+pynotify.init('pyovpn')
 
 class Notif(object):
     """ Notification Class """
