@@ -12,5 +12,5 @@ Installation
 
 2. Install PyOvpn:
 
-    `sudo pip install https://github.com/ekaputra07/pyovpn.git`
+    `sudo pip install https://github.com/ekaputra07/pyovpn.git#egg=pyovpn`
 
