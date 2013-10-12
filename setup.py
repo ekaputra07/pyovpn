@@ -21,14 +21,14 @@ from setuptools import setup, find_packages
 
 setup(
     name = "PyOvpn",
-    version = "0.2.0",
+    version = "0.2.1",
     url = 'https://github.com/ekaputra07/pyovpn',
     description = 'Simple Python Open VPN Client.',
     license = 'GNU/GPL',
     author = 'Eka Putra',
     author_email = 'ekaputra@balitechy.com',
     packages = find_packages(),
-    install_requires = ['pexpect'],
+    install_requires = ['pexpect', 'pyqt4'],
     data_files = [
                 ('/usr/share/pixmaps', ['data/pyovpn.svg']),
                 ('/usr/share/applications', ['data/pyovpn.desktop'])
