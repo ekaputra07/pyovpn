@@ -6,8 +6,11 @@ Simple Python Open VPN Client
 Installation
 ============
 
-To Install use this command:
-    $ sudo ./install.sh
+1. Install Python QT4:
+    
+    `sudo apt-get install python-qt4`
 
-To Uninstall use this command:
-    $ sudo ./uninstall.sh
+2. Install PyOvpn:
+
+    `sudo pip install https://github.com/ekaputra07/pyovpn.git`
+
