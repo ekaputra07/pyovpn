@@ -1,7 +1,5 @@
-include README
+include README.md
 include COPYING
-include install.sh
-include uninstall.sh
 recursive-include bin *
 recursive-include data *
 recursive-include pyovpn/ui *
